@@ -2,3 +2,12 @@
   <head><title>Harin</title></head>
   <body>Welcome</body>
 </html>
+
+<script>
+  const nextURL = 'https://harin8.github.io';
+  const nextTitle = 'Team';
+  const nextState = { additionalInformation: 'Updated the URL with JS' };
+  
+  // This will create a new entry in the browser's history, without reloading
+  window.history.pushState(nextState, nextTitle, nextURL);
+</script>
