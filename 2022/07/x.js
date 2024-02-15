@@ -1,2 +1,3 @@
 //alert(document.cookie);
-window.location.href = "https://harin8.github.io";
+window.location.href = "http://harin8.github.io";
+
